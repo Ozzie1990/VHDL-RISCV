@@ -117,7 +117,7 @@ begin
         --BRANCH Instruction
         --*****************************
         when BRANCH =>
-          case( op_code(30) & s_func ) is
+          case( op_code(30) & s_func ) is 
             s_rs1 <= s_data_in(19 downto 15);
             
         --*****************************
