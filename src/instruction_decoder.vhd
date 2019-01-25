@@ -213,7 +213,7 @@ begin
           --*****************************
           --Integer Instruction
           --*****************************
-          when INT_REG_IMMED =>
+          when INT_REG=>
 
             case( op_code(30) & s_func ) is
             
